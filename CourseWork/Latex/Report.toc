@@ -1,0 +1,9 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Methodology}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Results}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Discussion and Conclusion}{2}%
