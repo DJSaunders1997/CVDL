@@ -295,7 +295,7 @@ def update_scene(position, spheres_collected, subsample=1):
     """
     
     # Define sphere locations
-    sphere_positions = np.asarray([[ -0.1971,0.0620,2.4200]     # 1
+    sphere_positions = np.asarray([[ -0.1971,0.0620,2.4200],     # 1
                                    [-0.3208,-0.0384,4.7844],    # 2
                                    [-0.9484,0.2093,7.1190],     # 3
                                    [-1.0448,0.6402,9.4877],     # 4
