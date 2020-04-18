@@ -295,33 +295,24 @@ def update_scene(position, spheres_collected, subsample=1):
     """
     
     # Define sphere locations
-    sphere_positions = np.asarray([[ -0.1971,0.0620,2.4200],     # 1
-                                   [-0.3208,-0.0384,4.7844],    # 2
-                                   [-0.9484,0.2093,7.1190],     # 3
-                                   [-1.0448,0.6402,9.4877],     # 4
-                                   [-1.9173,0.7783,12.2852],    # 5
-                                   [-3.8317,1.0877,12.9989],    #6 #SKIPPED
-                                   [-6.6664,1.4695,13.2349],    # 7
-                                   [-8.9885,1.6683,11.4675],    # 8
-                                   [-9.4013,1.8192,9.6671],     # 9
-                                   [-9.2761,1.8705,7.1552],     # 10
-                                   [-9.0310,2.0825,4.4461]])    # 11
+    sphere_positions = np.asarray([[ -0.1971,0.0620,2.4200],
+                                   [-0.3208,-0.0384,4.7844],
+                                   [-0.9484,0.2093,7.1190],   
+                                   [-1.0448,0.6402,9.4877],   
+                                   [-1.9173,0.7783,12.2852],   
+                                   [-3.8317,1.0877,12.9989],   
+                                   [-6.6664,1.4695,13.2349],   
+                                   [-8.9885,1.6683,11.4675],   
+                                   [-9.4013,1.8192,9.6671],   
+                                   [-9.2761,1.8705,7.1552],
+                                   [-9.0310,2.0825,4.4461]]) 
     
     # Update the score, updating spheres_collected and removing the sphere from the cloud
     sphere_size = 9
     dist = cdist(np.expand_dims(position, axis=0), sphere_positions)
     dist_threshold = 1.0 / (sphere_size - 1)
-
-    ############################# DAVE ADDED CODE ################################################
-    # IF THERE IS A SPHERE CLOSE DELETE, ELSE JUST MOVE
-    if ( len( np.where(dist <= dist_threshold)[0] ) != 0 ):
-        points_to_remove = np.where(dist <= dist_threshold)[1][0]
-        spheres_collected[points_to_remove] = True
-    else:
-            print('PACMANFUNCTIONALITY - NO SPHERES AT LOCATION')
-            # If no spheres are found print this then continue as normal
-    ############################# DAVE ADDED CODE ################################################
-
+    points_to_remove = np.where(dist <= dist_threshold)[1][0]
+    spheres_collected[points_to_remove] = True
     spheres_to_render = [not elem for elem in spheres_collected]
     sphere_positions = sphere_positions[spheres_to_render, :]
         
