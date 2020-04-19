@@ -30,7 +30,7 @@ Write section 1 here \cite{torsney2011tuner} and talk about figure \ref{fig:test
 Image detection is a classic machine learning problem, with hundreds of papers on the topic. 
 History of image detection is relatively recent.
 Maybe started with the MNIST handwritten digit classification problem.
-Is regarded by many as the 'Hello world' of machine learning/CNNs.
+Is regarded by many as the 'Hello world' of machine learning/CNNs \cite{tensorflow_2020}.
 One guy on kaggle used a cnn for the first time to great effect.
 Other more advanced problems such as image recognition, gesture
     , emotion detection now possible thanks to deeper networks, and convolution's layers.
@@ -53,6 +53,9 @@ on hyperparameters must be stated here, including motivation for your
 choices where applicable. If the basis of your decision is experimentation
 with a number of parameters, then state this.
 
+
+Decide to look, rotate by pi/6 if nothing is found.
+
 Decided to use a Convolutionial Neual Network, due to their tried and trusted effectiveness at image detection.
 Detecting the red sphere is a trivial use of the technology so accuracy is expected to be very high.
 Problem will be with the training data not relating to the real life data where the spheres will be obscured and different sizes from the training.
@@ -62,12 +65,51 @@ All of the architecture of the CNN will be explained in this paragraph and all o
 Why ADAM, why crossspectromity, LOOK AT LAST YEARS.
 (Maybe picture of model summary?, or look at a tool online to visualise)
 
+First layer is 
+$layers.Conv2D(32, (3, 3), input_shape=(51, 51, 3)$
+which inputs the training image and uses a kernel size of 32 pixel.
+Activation of each internal layers use relu as that is default for whatever reason.
+Alternative is to use something like sigmoid, but relu is now generally used because xyz. 
+
+Followed by a maxpooling layer to ..... do what they do.
+Why MAXpooling is used and not min pooling, or average pooling.
+Pooling size is 2, 2 WHY and what exactly does it mean?
+
+Second layer is the same but with a different input shape for obvious reasons.
+Followed by another activation and pooling.
+
+Third layer is the same but with an initial kernel size of 64.
+Bigger kernel size is choice as the hope is that the lower levels will get smaller or more localised features but with a larger kernel we will hope it pieces the smaller features together.
+However as image recognition problems go this one is straightforward so it really shouldnt need to piece together layers of features.
+Regardless when a shallower network was tried it didn't work so here we are.  
+
+
+Then we flatten the layers so that we can feed the outputs from the convolutionial layers into a more traditional dense network of nodes.
+This is fed into 64 neurons, which are then fed into a single neuron which will fire if a sphere is detected.
+Between the layers there is a dropout of 50\% in an attempt to avoid overfitting TODO: reference WHY.
+
+Loss function is chosen to be $binary/_crossentropy$ as it is the best choice for binary classification.
+Why did I choose rmsprop as an optimizer? 
+
+The model is then saved to disk.
+This is so the network doesnt have to be retrained all the time and to help reproducability.
+(Get reference to why you should always save a model)
+Since networks are non-determinstic they may not always have the same result (ref).
+
+
 \section{Results}
 Describe, compare and contrast the results you obtained on your
 model(s). Any relationships in the data should be outlined and pointed
 out here. Only the most important conclusions should be mentioned in
 the text. By using tables and confusion-matrices to support the section,
 you can avoid describing the results fully.
+
+Confusion matrix of CNN:
+(Only text or with a nice graph)
+
+Confusion matrix of dummy:
+(Only text or with a nice graph)
+
 
 \section{Discussion and Conclusion}
 Restate the task and hypothesis/-ses concisely.

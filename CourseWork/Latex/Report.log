@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.10)  19 APR 2020 20:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.10)  20 APR 2020 00:14
 entering extended mode
 **c:/Users/DJSau/CVDL/CourseWork/Latex/Report.tex
 (c:/Users/DJSau/CVDL/CourseWork/Latex/Report.tex
@@ -356,30 +356,54 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `Report.toc'.
 
+
+
+LaTeX Warning: Citation 'torsney2011tuner' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'tensorflow_2020' on page 1 undefined on input line 33.
+
 <Test.JPG, id=1, 770.88pt x 433.62pt>
 File: Test.JPG Graphic file (type jpg)
 <use Test.JPG>
 Package pdftex.def Info: Test.JPG  used on input line 45.
 (pdftex.def)             Requested size: 269.81204pt x 151.76927pt.
- [1
+[1
 
-{C:/Users/DJSau/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <c:/Users/DJSau/CVDL/CourseWork/Latex/Test.JPG>] [3] (c:\Users\DJSau\CVDL\CourseWork\Latex\Report.aux)
+{C:/Users/DJSau/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 69.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 69.
+ [2 <c:/Users/DJSau/CVDL/CourseWork/Latex/Test.JPG>]
+
+LaTeX Warning: Empty bibliography on input line 120.
+
+[3] (c:\Users\DJSau\CVDL\CourseWork\Latex\Report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Report
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Report.run.xml'.
 \openout1 = `Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 8662 strings out of 480934
- 160543 string characters out of 2909682
- 784271 words of memory out of 3000000
- 24463 multiletter control sequences out of 15000+200000
- 537239 words of font info for 40 fonts, out of 3000000 for 9000
+ 8643 strings out of 480934
+ 160053 string characters out of 2909682
+ 784275 words of memory out of 3000000
+ 24445 multiletter control sequences out of 15000+200000
+ 536893 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,45p,863b,1162s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on c:\Users\DJSau\CVDL\CourseWork\Latex\Report.pdf (3 pages, 185926 bytes).
+ 35i,6n,39p,863b,1118s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on c:\Users\DJSau\CVDL\CourseWork\Latex\Report.pdf (3 pages, 195249 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

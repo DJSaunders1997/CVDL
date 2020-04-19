@@ -1,17 +1,15 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'Report.blg'
-[93] biber-MSWIN64:322> INFO - === 
-[118] Biber.pm:415> INFO - Reading 'Report.bcf'
-[263] Biber.pm:943> INFO - Found 1 citekeys in bib section 0
-[285] Biber.pm:4256> INFO - Processing section 0
-[286] Utils.pm:75> INFO - Globbing data source 'References.bib'
-[298] Utils.pm:91> INFO - Globbed data source 'References.bib' to References.bib
-[318] Biber.pm:4455> INFO - Looking for bibtex format file 'References.bib' for section 0
-[321] bibtex.pm:1653> INFO - LaTeX decoding ...
-[332] bibtex.pm:1471> INFO - Found BibTeX data source 'References.bib'
-[384] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[384] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[384] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[384] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[386] bbl.pm:652> INFO - Writing 'Report.bbl' with encoding 'UTF-8'
-[388] bbl.pm:755> INFO - Output to Report.bbl
+[134] biber-MSWIN64:322> INFO - === 
+[163] Biber.pm:415> INFO - Reading 'Report.bcf'
+[362] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
+[397] Biber.pm:4256> INFO - Processing section 0
+[398] Utils.pm:75> INFO - Globbing data source 'References.bib'
+[421] Utils.pm:91> INFO - Globbed data source 'References.bib' to References.bib
+[446] Biber.pm:4455> INFO - Looking for bibtex format file 'References.bib' for section 0
+[453] bibtex.pm:1653> INFO - LaTeX decoding ...
+[466] bibtex.pm:1471> INFO - Found BibTeX data source 'References.bib'
+[517] Utils.pm:304> WARN - month field 'Apr' in entry 'tensorflow_2020' is not an integer - this will probably not sort properly.
+[530] Utils.pm:320> ERROR - BibTeX subsystem: C:\Users\DJSau\AppData\Local\Temp\biber_tmp_plZG\References.bib_20604.utf8, line 29, syntax error: found "title", expected ","
+[531] Biber.pm:128> INFO - WARNINGS: 1
+[531] Biber.pm:132> INFO - ERRORS: 1
