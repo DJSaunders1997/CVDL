@@ -2184,7 +2184,8 @@
   <bcf:section number="0">
     <bcf:citekey order="1">tensorflow_2020</bcf:citekey>
     <bcf:citekey order="2">krizhevsky2012imagenet</bcf:citekey>
-    <bcf:citekey order="3">hinton2012improving</bcf:citekey>
+    <bcf:citekey order="3">LeNail2019</bcf:citekey>
+    <bcf:citekey order="4">hinton2012improving</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
