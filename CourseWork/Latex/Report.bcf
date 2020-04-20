@@ -2188,6 +2188,7 @@
     <bcf:citekey order="4">lecun1998gradient</bcf:citekey>
     <bcf:citekey order="5">LeNail2019</bcf:citekey>
     <bcf:citekey order="6">hinton2012improving</bcf:citekey>
+    <bcf:citekey order="7">Chengwei_2018</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

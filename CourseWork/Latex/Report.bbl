@@ -246,6 +246,37 @@
       \field{title}{Improving neural networks by preventing co-adaptation of feature detectors}
       \field{year}{2012}
     \endentry
+    \entry{Chengwei_2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0624976497ed6d8fe3ffd7de34d5fd39}{%
+           family={Chengwei},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \strng{fullhash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \strng{bibnamehash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \strng{authorbibnamehash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \strng{authornamehash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \strng{authorfullhash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \field{labelalpha}{Che18}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{02}
+      \field{title}{Quick Notes on How to choose Optimizer In Keras}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dlology.com/blog/quick-notes-on-how-to-choose-optimizer-in-keras/
+      \endverb
+      \verb{url}
+      \verb https://www.dlology.com/blog/quick-notes-on-how-to-choose-optimizer-in-keras/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

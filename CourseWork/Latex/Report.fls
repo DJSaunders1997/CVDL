@@ -125,9 +125,9 @@ INPUT c:\Users\jacqu\cvdl\CourseWork\Latex\CNN.pdf
 INPUT c:\Users\jacqu\cvdl\CourseWork\Latex\CNN.pdf
 INPUT c:\Users\jacqu\cvdl\CourseWork\Latex\CNN.pdf
 INPUT c:\Users\jacqu\cvdl\CourseWork\Latex\CNN.pdf
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
 INPUT c:\Users\jacqu\cvdl\CourseWork\Latex\Report.aux
 INPUT c:\Users\jacqu\cvdl\CourseWork\Latex\Report.run.xml
 OUTPUT c:\Users\jacqu\cvdl\CourseWork\Latex\Report.run.xml
@@ -139,8 +139,6 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx9.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx9.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb

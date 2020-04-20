@@ -53,6 +53,7 @@ The classifier will be trained so that it only recognises a sphere if it is in t
 The camera will then move to the sphere with the lowest depth, which will be the closest sphere.
 The X,Y,Z coordinates of the sphere will be found from the middle pixel value for the projected mappings.
 If no spheres are detected in any window then the viewpoint will rotate $-\frac{\pi}{6}$ radians in the Y axis until a sphere is detected.
+This process will repeat until all spheres have been collected.
 
 \subsection{Classifier 1: Convolutional Neural Network}
 
@@ -106,19 +107,19 @@ This is given as a probability from 0 (no sphere present) to 1 (sphere present).
 Between the hidden and output layers there is a dropout amount specified at 50\%, this means that half of these neurons randomly wont fire.
 This method has been shown to reduce overfitting as each hidden neuron cannot rely on another neuron firing \cite{hinton2012improving}. %(weak explanation) 
 
-When training the network the loss function is chosen to be $binary/_crossentropy$ as it is the best choice for binary classification.
-Why did I choose rmsprop as an optimizer? 
+When training the network the loss function is chosen to be binary crossentropy the CNN is predicting binary data.
+The adaptive learning rate method Adam was chosen as optimizer as it has low memory requirements and works with little tuning of the hyperparameters \cite{Chengwei_2018}.
 
-The data will be trained with 5 epochs, as it is believed this will be sufficient to maximise accuracy, but prevent overfitting.
-Obviously an epoch is a full pass through the dataset and we're only given a small dataset to work with so overfitting is the biggest worry.
-TODO: Reference of course.
-\url{machinelearningmastery.com/early-stopping-to-avoid-overtraining-neural-network-models/}
-This article list loads of nice academic sources about how to avoid overfitting.
+The data will be trained with 5 epochs, as this should maximise accuracy but prevent overfitting which is an issue with such a small dataset.
+%machinelearningmastery.com/early-stopping-to-avoid-overtraining-neural-network-models/}
+%This article list loads of nice academic sources about how to avoid overfitting.
 
-The model is then saved to disk as a $.hdf5$ file.
-This is so the network doesn't have to be retrained all the time and to help reproducibility.
-(Get reference to why you should always save a model)
-Since networks are non-deterministic they may not always have the same result (ref).
+% The model is then saved to disk as a $.hdf5$ file.
+% This is so the networks weights doesn't have to be retrained all the time and to help reproducibility.
+% (Get reference to why you should always save a model)
+% Since networks are non-deterministic they may not always have the same result (ref).
+
+The CNN will be used to classify a sphere only if there is a confidence of at least 99.9\% to avoid false positives. 
 
 \subsection{Classifier 2: Dummy classifier}
 CNN is good and all but is it too complicated for the job?
@@ -143,23 +144,23 @@ The main for loop of the program ran for a time of 12 minutes, and every sphere 
 The time is high however that is not because of the classifier used but rather the function of projecting the point cloud to the 5 different maps that bottlenecked the system.
 Neural networks are even known for their speed of classification once they've been trained.
 
-Confusion matrix of CNN:
-(Only text or with a nice graph)
-
+Accuracy of CNN was 100\% as expected from a powerful detection network. 
 
 As discussed NNs are fast at classification, but how does that compare to an even simpler method of classification.
 To complete the game using the dummy classifier took only 9 minutes.
 Despite the classifier not being the bottleneck, there was a notable speed increase.
 One possible explanation for the speedup is that the dummy, classifier is less robust and adaptable to channge than the CNN.
 Sphere would have to be directly in centre of screen, meaning less spheres were identified and so less things to process?
-TODO: Look at results to see if this theory holds any weight at all.
+%TODO: Look at results to see if this theory holds any weight at all.
 
-TODO: time both classifiers on the same starting test image, and then sliding windows classifier measured to compare time differences.
+%TODO: time both classifiers on the same starting test image, and then sliding windows classifier measured to compare time differences.
+%Do with table?
+The dummy classifier was still very effective, with an accuracy score of 99.0\% (2.s.f).
+There were no false positives and only 6 false negatives.
+The impact of false negatives are softened by the sliding window algorithm, a sphere appears in multiple windows so the classifier has multiple chances for detection. 
+% Condusion matrix not necessary as I talk about the results instead.
 
-
-Confusion matrix of dummy:
-(Only text or with a nice graph)
-
+ Any difference in time between the classifiers is unimportant to this task as the classifier is not the bottleneck, projecting the pointcloud to an image is.
 
 \section{Discussion and Conclusion}
 % 10%

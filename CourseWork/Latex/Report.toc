@@ -6,7 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Classifier 1: Convolutional Neural Network}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Classifier 2: Dummy classifier}{4}%
+\contentsline {subsection}{\numberline {2.2}Classifier 2: Dummy classifier}{3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Results}{4}%
 \defcounter {refsection}{0}\relax 
