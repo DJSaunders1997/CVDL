@@ -100,14 +100,15 @@ INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Report.toc
 INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Report.toc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
 OUTPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Report.toc
-INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Test.JPG
-INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Test.JPG
 OUTPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Report.pdf
-INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Test.JPG
-INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Test.JPG
-INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Test.JPG
 INPUT C:\Users\DJSau\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\CNN_Zoomed.png
+INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\CNN_Zoomed.png
+INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\CNN_Zoomed.png
+INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\CNN_Zoomed.png
+INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\CNN_Zoomed.png
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
 INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Report.aux
 INPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Report.run.xml
 OUTPUT c:\Users\DJSau\CVDL\CourseWork\Latex\Report.run.xml
@@ -129,3 +130,5 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb
