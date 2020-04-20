@@ -25,8 +25,6 @@ Contextualise the machine-learning problem and introduce the
 task and the hypothesis. Make sure to include a few references to previous
 work. You should demonstrate an awareness of the research-area.
 
-Write section 1 here \cite{torsney2011tuner} and talk about figure \ref{fig:test}.
-
 Image detection is a classic machine learning problem, with hundreds of papers on the topic. 
 History of image detection is relatively recent.
 Maybe started with the MNIST handwritten digit classification problem.
@@ -53,8 +51,12 @@ on hyperparameters must be stated here, including motivation for your
 choices where applicable. If the basis of your decision is experimentation
 with a number of parameters, then state this.
 
-
+Break up the projected images into windows of size 51x51, which is the same as the samples in the training data.
+THen the x,y,z, coordinates are found by measuring the distance to each sphere.
+This is done by taking the depth of the middle pixel and moving to the closest one.
 Decide to look, rotate by pi/6 if nothing is found.
+
+\subsection{Classifier 1: Convolutional Neural Network}
 
 Decided to use a Convolutionial Neual Network, due to their tried and trusted effectiveness at image detection.
 Detecting the red sphere is a trivial use of the technology so accuracy is expected to be very high.
@@ -91,10 +93,26 @@ Between the layers there is a dropout of 50\% in an attempt to avoid overfitting
 Loss function is chosen to be $binary/_crossentropy$ as it is the best choice for binary classification.
 Why did I choose rmsprop as an optimizer? 
 
+Data currently trained with 5 epochs.
+Obviously an epoch is a full pass through the dataset and we're only given a small dataset to work with.
+5 epochs might be too much, the accuracy doesn't improve after the first epoch so delete the rest and see what accuracy is like then?
+TODO: Reference of course.
+https://machinelearningmastery.com/early-stopping-to-avoid-overtraining-neural-network-models/
+This article list loads of nice academic sources about how to avoid overfitting.
+
 The model is then saved to disk.
 This is so the network doesnt have to be retrained all the time and to help reproducability.
 (Get reference to why you should always save a model)
 Since networks are non-determinstic they may not always have the same result (ref).
+
+\subsection{Classifier 2: Dummy classifier}
+CNN is good and all but is it too complicated for the job?
+
+while messing around it was found that multiple layers were needed to properly classift the spheres.
+Could manual feature engineering help? (Feature engineering is a good word just TODO: find reference.)
+In the training data the red sphere is always in the centre, with the center pixel having a very high red intensity, with a low intensity for the green and blue channels. 
+Idea was that by using human knowledge to extract features using domain knowledge could prove just as effective as state of the art machine learning.
+Perhaps there'd even be benefits of a computational speedup when a more simple method was used.
 
 
 \section{Results}
@@ -104,8 +122,24 @@ out here. Only the most important conclusions should be mentioned in
 the text. By using tables and confusion-matrices to support the section,
 you can avoid describing the results fully.
 
+The methods of completing the PacMan game as discussed above were successful when the CNN architecture was used.
+The main for loop of the program ran for a time of 12 minutes, and every sphere was detected and moved to flawlessly.
+The time is high however that is not because of the classifier used but rather the function of projecting the point cloud to the 5 different maps that bottlenecked the system.
+Neural networks are even known for their speed of classification once they've been trained.
+
 Confusion matrix of CNN:
 (Only text or with a nice graph)
+
+
+As discussed NNs are fast at classification, but how does that compare to an even simpler method of classification.
+To complete the game using the dummy classifier took only 9 minutes.
+Despite the classifier not being the bottleneck, there was a notable speed increase.
+One possible explanation for the speedup is that the dummy, classifier is less robust and adaptable to channge than the CNN.
+Sphere would have to be directly in centre of screen, meaning less spheres were identified and so less things to process?
+TODO: Look at results to see if this theory holds any weight at all.
+
+TODO: time both classifiers on the same starting test image, and then sliding windows classifier measured to compare time differences.
+
 
 Confusion matrix of dummy:
 (Only text or with a nice graph)
@@ -116,6 +150,11 @@ Restate the task and hypothesis/-ses concisely.
 Reiterate the methods used. Describe the outcome of the experiment
 and the conclusion that you can draw from these results in respect of the
 hypothesis/-ses.
+
+Task at hand was a simple binary image classifier that was to be used in conjunction with other methods to play a game moving thorough 3D space.
+A CNN was used as they are the de facto, tried and tested method of dealing with this problem.
+Despite this a simple dummy classifier was created using manual feature extraction which performed just as well.
+This shows how there is not always a need for the most advance options and that given some knowledge of the problem, manual feature engineering can be the most effective.
 
 \printbibliography
 

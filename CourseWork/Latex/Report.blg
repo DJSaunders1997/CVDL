@@ -1,15 +1,15 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'Report.blg'
-[134] biber-MSWIN64:322> INFO - === 
-[163] Biber.pm:415> INFO - Reading 'Report.bcf'
-[362] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
-[397] Biber.pm:4256> INFO - Processing section 0
-[398] Utils.pm:75> INFO - Globbing data source 'References.bib'
-[421] Utils.pm:91> INFO - Globbed data source 'References.bib' to References.bib
-[446] Biber.pm:4455> INFO - Looking for bibtex format file 'References.bib' for section 0
-[453] bibtex.pm:1653> INFO - LaTeX decoding ...
-[466] bibtex.pm:1471> INFO - Found BibTeX data source 'References.bib'
-[517] Utils.pm:304> WARN - month field 'Apr' in entry 'tensorflow_2020' is not an integer - this will probably not sort properly.
-[530] Utils.pm:320> ERROR - BibTeX subsystem: C:\Users\DJSau\AppData\Local\Temp\biber_tmp_plZG\References.bib_20604.utf8, line 29, syntax error: found "title", expected ","
-[531] Biber.pm:128> INFO - WARNINGS: 1
-[531] Biber.pm:132> INFO - ERRORS: 1
+[162] biber-MSWIN64:322> INFO - === 
+[203] Biber.pm:415> INFO - Reading 'Report.bcf'
+[440] Biber.pm:943> INFO - Found 1 citekeys in bib section 0
+[464] Biber.pm:4256> INFO - Processing section 0
+[465] Utils.pm:75> INFO - Globbing data source 'References.bib'
+[479] Utils.pm:91> INFO - Globbed data source 'References.bib' to References.bib
+[513] Biber.pm:4455> INFO - Looking for bibtex format file 'References.bib' for section 0
+[517] bibtex.pm:1653> INFO - LaTeX decoding ...
+[526] bibtex.pm:1471> INFO - Found BibTeX data source 'References.bib'
+[551] Utils.pm:304> WARN - month field 'Apr' in entry 'tensorflow_2020' is not an integer - this will probably not sort properly.
+[559] Utils.pm:320> ERROR - BibTeX subsystem: C:\Users\DJSau\AppData\Local\Temp\biber_tmp_sxfr\References.bib_11672.utf8, line 11, syntax error: found "title", expected ","
+[559] Biber.pm:128> INFO - WARNINGS: 1
+[559] Biber.pm:132> INFO - ERRORS: 1
