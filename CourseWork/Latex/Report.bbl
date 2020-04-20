@@ -33,6 +33,7 @@
       \strng{authorbibnamehash}{62f442a57c514c318de23a91977756d6}
       \strng{authornamehash}{62f442a57c514c318de23a91977756d6}
       \strng{authorfullhash}{62f442a57c514c318de23a91977756d6}
+      \field{labelalpha}{Tut20}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
@@ -50,6 +51,38 @@
       \verb{url}
       \verb https://www.tensorflow.org/tutorials/keras/classification
       \endverb
+    \endentry
+    \entry{forsyth2002computer}{book}{}
+      \name{author}{2}{}{%
+        {{hash=fb219fee62b61373298aa0f4088c80d1}{%
+           family={Forsyth},
+           familyi={F\bibinitperiod},
+           given={David\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ee672c13ddea8aa3bc5a45024cfd7354}{%
+           family={Ponce},
+           familyi={P\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall Professional Technical Reference}%
+      }
+      \strng{namehash}{7730c5503aa329e6471e7cbf04f74616}
+      \strng{fullhash}{7730c5503aa329e6471e7cbf04f74616}
+      \strng{bibnamehash}{7730c5503aa329e6471e7cbf04f74616}
+      \strng{authorbibnamehash}{7730c5503aa329e6471e7cbf04f74616}
+      \strng{authornamehash}{7730c5503aa329e6471e7cbf04f74616}
+      \strng{authorfullhash}{7730c5503aa329e6471e7cbf04f74616}
+      \field{labelalpha}{FP02}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Computer vision: a modern approach}
+      \field{year}{2002}
+      \field{pages}{519\bibrangedash 539}
+      \range{pages}{21}
     \endentry
     \entry{krizhevsky2012imagenet}{inproceedings}{}
       \name{author}{3}{}{%
@@ -75,8 +108,9 @@
       \strng{authorbibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{authornamehash}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelalpha}{KSH12}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in neural information processing systems}
@@ -84,6 +118,51 @@
       \field{year}{2012}
       \field{pages}{1097\bibrangedash 1105}
       \range{pages}{9}
+    \endentry
+    \entry{lecun1998gradient}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
+           family={LeCun},
+           familyi={L\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ac762f2592005edf6bad58f566967c6c}{%
+           family={Bottou},
+           familyi={B\bibinitperiod},
+           given={L{é}on},
+           giveni={L\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=844e183692f08a63f99285330fcf90cc}{%
+           family={Haffner},
+           familyi={H\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ieee}%
+      }
+      \strng{namehash}{9e4c6012409dc8dd9b2aa198a2059804}
+      \strng{fullhash}{c397b2e6efe8e5c6ca906410fc9e0ff9}
+      \strng{bibnamehash}{9e4c6012409dc8dd9b2aa198a2059804}
+      \strng{authorbibnamehash}{9e4c6012409dc8dd9b2aa198a2059804}
+      \strng{authornamehash}{9e4c6012409dc8dd9b2aa198a2059804}
+      \strng{authorfullhash}{c397b2e6efe8e5c6ca906410fc9e0ff9}
+      \field{labelalpha}{LeC+98}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{11}
+      \field{title}{Gradient-based learning applied to document recognition}
+      \field{volume}{86}
+      \field{year}{1998}
+      \field{pages}{2278\bibrangedash 2324}
+      \range{pages}{47}
     \endentry
     \entry{LeNail2019}{article}{}
       \name{author}{1}{}{%
@@ -102,8 +181,9 @@
       \strng{authorbibnamehash}{79e29217d375e6d034f21912fe7fed95}
       \strng{authornamehash}{79e29217d375e6d034f21912fe7fed95}
       \strng{authorfullhash}{79e29217d375e6d034f21912fe7fed95}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelalpha}{LeN19}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Open Source Software}
@@ -157,8 +237,9 @@
       \strng{authorbibnamehash}{7c3a69040c0122d64c38f463aa1410df}
       \strng{authornamehash}{7c3a69040c0122d64c38f463aa1410df}
       \strng{authorfullhash}{08830d3157ae1f7f62929260dfb1d0c0}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelalpha}{Hin+12}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1207.0580}
