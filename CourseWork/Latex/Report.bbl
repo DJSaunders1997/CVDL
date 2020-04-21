@@ -19,37 +19,197 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{tensorflow_2020}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=62f442a57c514c318de23a91977756d6}{%
-           family={Tutorials},
-           familyi={T\bibinitperiod},
-           given={TensorFlow},
-           giveni={T\bibinitperiod}}}%
+    \entry{guo2019deep}{article}{}
+      \name{author}{6}{}{%
+        {{hash=053425ef184643995c803e8f2dcf7450}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Yulan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=60bbd09d7bb3d856e76bc7906f4b65d3}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hanyun},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7cbdaa72b191d55b0649f70579a54b86}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Qingyong},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=33104fd0f457a2964af323817a9d2016}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fa3e4da50b3416b1a04c39a932b2344c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=311b43bd7e74572b53bdaa35dd1d492a}{%
+           family={Bennamoun},
+           familyi={B\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{62f442a57c514c318de23a91977756d6}
-      \strng{fullhash}{62f442a57c514c318de23a91977756d6}
-      \strng{bibnamehash}{62f442a57c514c318de23a91977756d6}
-      \strng{authorbibnamehash}{62f442a57c514c318de23a91977756d6}
-      \strng{authornamehash}{62f442a57c514c318de23a91977756d6}
-      \strng{authorfullhash}{62f442a57c514c318de23a91977756d6}
-      \field{labelalpha}{Tut20}
+      \strng{namehash}{2464bd4fed13cf858a49f95b741c3d82}
+      \strng{fullhash}{1c4b46284352b19c42db14d1ed40dbc6}
+      \strng{bibnamehash}{2464bd4fed13cf858a49f95b741c3d82}
+      \strng{authorbibnamehash}{2464bd4fed13cf858a49f95b741c3d82}
+      \strng{authornamehash}{2464bd4fed13cf858a49f95b741c3d82}
+      \strng{authorfullhash}{1c4b46284352b19c42db14d1ed40dbc6}
+      \field{labelalpha}{Guo+19}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{04}
-      \field{title}{Basic classification Classify images of clothing}
-      \field{urlday}{19}
+      \field{journaltitle}{arXiv preprint arXiv:1912.12033}
+      \field{title}{Deep Learning for 3D Point Clouds: A Survey}
+      \field{year}{2019}
+    \endentry
+    \entry{forbes2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=45e742b767724e8dd079d77d58d3a634}{%
+           family={Sokolowski},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{45e742b767724e8dd079d77d58d3a634}
+      \strng{fullhash}{45e742b767724e8dd079d77d58d3a634}
+      \strng{bibnamehash}{45e742b767724e8dd079d77d58d3a634}
+      \strng{authorbibnamehash}{45e742b767724e8dd079d77d58d3a634}
+      \strng{authornamehash}{45e742b767724e8dd079d77d58d3a634}
+      \strng{authorfullhash}{45e742b767724e8dd079d77d58d3a634}
+      \field{labelalpha}{Sok20}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Forbes Technology Council}
+      \field{month}{4}
+      \field{title}{How To Keep Our AI Obsession From Overcomplicating Data Projects}
+      \field{urlday}{21}
       \field{urlmonth}{4}
       \field{urlyear}{2020}
       \field{year}{2020}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.tensorflow.org/tutorials/keras/classification
+      \verb https://www.forbes.com/sites/forbestechcouncil/2020/04/20/how-to-keep-our-ai-obsession-from-overcomplicating-data-projects/#7b6659b55236
       \endverb
       \verb{url}
-      \verb https://www.tensorflow.org/tutorials/keras/classification
+      \verb https://www.forbes.com/sites/forbestechcouncil/2020/04/20/how-to-keep-our-ai-obsession-from-overcomplicating-data-projects/#7b6659b55236
+      \endverb
+    \endentry
+    \entry{neal2018modern}{article}{}
+      \name{author}{7}{}{%
+        {{hash=2c8ba7085e507b8f595e8dbc09835b32}{%
+           family={Neal},
+           familyi={N\bibinitperiod},
+           given={Brady},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a77a41ec962529be8aed7aa9831e255a}{%
+           family={Mittal},
+           familyi={M\bibinitperiod},
+           given={Sarthak},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2d7e0f228a4066de5e2bbaf703a16d30}{%
+           family={Baratin},
+           familyi={B\bibinitperiod},
+           given={Aristide},
+           giveni={A\bibinitperiod}}}%
+        {{hash=13638a3c5ff5b0ccfe1dc7646624c551}{%
+           family={Tantia},
+           familyi={T\bibinitperiod},
+           given={Vinayak},
+           giveni={V\bibinitperiod}}}%
+        {{hash=fe3899da7698c5d8bc9de0171393d21d}{%
+           family={Scicluna},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=19ce069c35db05c86f9cdb9d9e6e3ce7}{%
+           family={Lacoste-Julien},
+           familyi={L\bibinithyphendelim J\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e7fbb560b8f6fd4003bc50b9316b1821}{%
+           family={Mitliagkas},
+           familyi={M\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee893f54fc24426a5d16dd7555e7816c}
+      \strng{fullhash}{cb2e194b15bf1cd16001dd125843e220}
+      \strng{bibnamehash}{ee893f54fc24426a5d16dd7555e7816c}
+      \strng{authorbibnamehash}{ee893f54fc24426a5d16dd7555e7816c}
+      \strng{authornamehash}{ee893f54fc24426a5d16dd7555e7816c}
+      \strng{authorfullhash}{cb2e194b15bf1cd16001dd125843e220}
+      \field{labelalpha}{Nea+18}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1810.08591}
+      \field{title}{A modern take on the bias-variance tradeoff in neural networks}
+      \field{year}{2018}
+    \endentry
+    \entry{zednik2019solving}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a41f59f2b6348d7e22fcf1f45a1cda18}{%
+           family={Zednik},
+           familyi={Z\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a41f59f2b6348d7e22fcf1f45a1cda18}
+      \strng{fullhash}{a41f59f2b6348d7e22fcf1f45a1cda18}
+      \strng{bibnamehash}{a41f59f2b6348d7e22fcf1f45a1cda18}
+      \strng{authorbibnamehash}{a41f59f2b6348d7e22fcf1f45a1cda18}
+      \strng{authornamehash}{a41f59f2b6348d7e22fcf1f45a1cda18}
+      \strng{authorfullhash}{a41f59f2b6348d7e22fcf1f45a1cda18}
+      \field{labelalpha}{Zed19}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy \& Technology}
+      \field{title}{Solving the Black Box Problem: A Normative Framework for Explainable Artificial Intelligence}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 24}
+      \range{pages}{24}
+    \endentry
+    \entry{dummyclassifier_2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3483ff058deda3dad41fa7925fab2dac}{%
+           family={scikit-learn},
+           familyi={s\bibinithyphendelim l\bibinitperiod}}}%
+      }
+      \strng{namehash}{3483ff058deda3dad41fa7925fab2dac}
+      \strng{fullhash}{3483ff058deda3dad41fa7925fab2dac}
+      \strng{bibnamehash}{3483ff058deda3dad41fa7925fab2dac}
+      \strng{authorbibnamehash}{3483ff058deda3dad41fa7925fab2dac}
+      \strng{authornamehash}{3483ff058deda3dad41fa7925fab2dac}
+      \strng{authorfullhash}{3483ff058deda3dad41fa7925fab2dac}
+      \field{labelalpha}{sci19}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{sklearn.dummy.DummyClassifier}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html
+      \endverb
+      \verb{url}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html
       \endverb
     \endentry
     \entry{forsyth2002computer}{book}{}
@@ -75,8 +235,8 @@
       \strng{authornamehash}{7730c5503aa329e6471e7cbf04f74616}
       \strng{authorfullhash}{7730c5503aa329e6471e7cbf04f74616}
       \field{labelalpha}{FP02}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Computer vision: a modern approach}
@@ -109,8 +269,8 @@
       \strng{authornamehash}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
       \field{labelalpha}{KSH12}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in neural information processing systems}
@@ -152,8 +312,8 @@
       \strng{authornamehash}{9e4c6012409dc8dd9b2aa198a2059804}
       \strng{authorfullhash}{c397b2e6efe8e5c6ca906410fc9e0ff9}
       \field{labelalpha}{LeC+98}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the IEEE}
@@ -182,8 +342,8 @@
       \strng{authornamehash}{79e29217d375e6d034f21912fe7fed95}
       \strng{authorfullhash}{79e29217d375e6d034f21912fe7fed95}
       \field{labelalpha}{LeN19}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Open Source Software}
@@ -238,8 +398,8 @@
       \strng{authornamehash}{7c3a69040c0122d64c38f463aa1410df}
       \strng{authorfullhash}{08830d3157ae1f7f62929260dfb1d0c0}
       \field{labelalpha}{Hin+12}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1207.0580}
@@ -259,8 +419,8 @@
       \strng{authornamehash}{0624976497ed6d8fe3ffd7de34d5fd39}
       \strng{authorfullhash}{0624976497ed6d8fe3ffd7de34d5fd39}
       \field{labelalpha}{Che18}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{02}
@@ -276,6 +436,36 @@
       \verb{url}
       \verb https://www.dlology.com/blog/quick-notes-on-how-to-choose-optimizer-in-keras/
       \endverb
+    \endentry
+    \entry{domingos2012few}{article}{}
+      \name{author}{1}{}{%
+        {{hash=926269a097c38456f5b32d7efb1d1a80}{%
+           family={Domingos},
+           familyi={D\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{926269a097c38456f5b32d7efb1d1a80}
+      \strng{fullhash}{926269a097c38456f5b32d7efb1d1a80}
+      \strng{bibnamehash}{926269a097c38456f5b32d7efb1d1a80}
+      \strng{authorbibnamehash}{926269a097c38456f5b32d7efb1d1a80}
+      \strng{authornamehash}{926269a097c38456f5b32d7efb1d1a80}
+      \strng{authorfullhash}{926269a097c38456f5b32d7efb1d1a80}
+      \field{labelalpha}{Dom12}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{10}
+      \field{title}{A few useful things to know about machine learning}
+      \field{volume}{55}
+      \field{year}{2012}
+      \field{pages}{78\bibrangedash 87}
+      \range{pages}{10}
     \endentry
   \enddatalist
 \endrefsection
